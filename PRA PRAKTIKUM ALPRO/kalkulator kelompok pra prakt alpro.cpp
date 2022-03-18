@@ -55,6 +55,31 @@ int main(){
 		cout << "--------------------------------------------------------------------\n";
 		cout << " Pengurangan bilangan pertama dan kedua (a-b) adalah " << kurang (a,b);
 	}
-
+	else if(pilihan == 3){
+		cout << "------------------------KALKULATOR PERKALIAN------------------------\n";
+		cout << "\n";
+		cout << " Masukkan bilangan pertama (a) : ";
+		cin >> a;
+		cout << " Masukkan bilangan kedua (b)   : ";
+		cin >> b;
+		cout << "\n";
+		cout << "--------------------------------------------------------------------\n";
+		cout << " Perkalian bilangan pertama dan kedua (a x b) adalah " << kali (a,b);
+	}
+	else if(pilihan == 4){
+		cout << "------------------------KALKULATOR PEMBAGIAN------------------------\n";
+		cout << "\n";
+		cout << " Masukkan bilangan pertama (a) : ";
+		cin >> a;
+		cout << " Masukkan bilangan kedua (b)   : ";
+		cin >> b;
+		cout << "\n";
+		cout << "--------------------------------------------------------------------\n";
+		cout << " Pembagian bilangan pertama dan kedua (a : b) adalah " << bagi (a,b);
+	}	
+	else if(pilihan == 0){
+		cout << "## ANDA TELAH KELUAR DARI PROGRAM ##";
+	}
+	
 	return 0;
 }
