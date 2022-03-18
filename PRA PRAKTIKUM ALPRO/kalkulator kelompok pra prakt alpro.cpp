@@ -32,6 +32,29 @@ int main(){
 	cout << "--------------------------------------------\n";
 	cout << "MENU PLIHAN ANDA : ";
 	cin >> pilihan;
+	cin >> pilihan;
+	if(pilihan == 1){
+		cout << "--------------------KALKULATOR PENJUMLAHAN------------------------\n";
+		cout << "\n";
+		cout << " Masukkan bilangan pertama (a) : ";
+		cin >> a;
+		cout << " Masukkan bilangan kedua (b)   : ";
+		cin >> b;
+		cout << "\n";
+		cout << "-------------------------------------------------------------------\n";
+		cout << " Jumlah bilangan pertama dan kedua (a+b) adalah " << tambah (a,b);
+	}
+	else if(pilihan == 2){
+		cout << "----------------------KALKULATOR PENGURANGAN------------------------\n";
+		cout << "\n";
+		cout << " Masukkan bilangan pertama (a) : ";
+		cin >> a;
+		cout << " Masukkan bilangan kedua (b)   : ";
+		cin >> b;
+		cout << "\n";
+		cout << "--------------------------------------------------------------------\n";
+		cout << " Pengurangan bilangan pertama dan kedua (a-b) adalah " << kurang (a,b);
+	}
 
 	return 0;
 }
